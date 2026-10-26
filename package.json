@@ -1,0 +1,16 @@
+{
+  "name": "resonance-stay-mexico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Experiencia audiovisual de Stray Kids y STAY México: bienvenida, órbitas de luz y proceso de diseño.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs"
+  }
+}

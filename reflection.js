@@ -1,0 +1,1 @@
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('js-reflection');const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('shown');observer.unobserve(e.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(e=>observer.observe(e));}
